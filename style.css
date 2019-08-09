@@ -16,7 +16,7 @@ body, html {
   right: 2vw;
   bottom: 2vw;
   left: 2vw;
-  padding: 7vw;
+  padding: 7vw 5vw 7vw 7vw;
   overflow: hidden;
 }
 
@@ -24,7 +24,7 @@ body, html {
 h1 {
   font-size: 30px;
   font-weight: normal;
-  padding: 10vh 0 .5em;
+  padding: 10vh 0 .25em;
   line-height: 1;
   font-style: italic;
   letter-spacing: -.5px;
