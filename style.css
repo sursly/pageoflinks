@@ -11,7 +11,7 @@ body, html {
 #page {
   background: white;
   box-shadow: 0px 3px 13px rgba(0,0,0,0.07);
- position: fixed;
+  position: fixed;
   top: 2vw;
   right: 2vw;
   bottom: 2vw;
