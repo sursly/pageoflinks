@@ -87,10 +87,12 @@ p.social a {
   transition: all 0.15s ease-out;
   -moz-transition: all 0.15s ease-out;
   -webkit-transition: all 0.15s ease-out;
+  border-bottom: 1px solid rgba(0,0,0,0);
+
 }
 
 a:hover, p.social a:hover {
-  border-bottom: 0px;
+  border-bottom: 1px solid rgba(0,0,0,0);
   color: coral;
 }
 
@@ -105,13 +107,24 @@ a:hover, p.social a:hover {
     }
 
     ul li {
-    line-height: 1.5;
-
+    line-height: 1.9;
+    font-size: 20px;
     }
+
+    a {
+      display: block;
+    }
+
     p.social a {
     display: block;
     padding: 0px;
     font-size: 15px;
-    line-height: 1.4;
+    line-height: 2;
     }
+
+    ul li:first-child, p.social strong {
+      font-size: 15px;
+    }
+
+
 }
