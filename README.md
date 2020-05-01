@@ -1,5 +1,5 @@
 # pageoflinks
- Modified "page of links" (w/ own links and own style) project originally by my professor Tyler Finck. Original can be accessed at [github.com/sursly/pageoflinks](https://www.https://github.com/sursly/pageoflinks). 
+ Modified "page of links" (w/ own links and own style) project originally by my professor Tyler Finck. Original can be accessed at [github.com/sursly/pageoflinks](https://www.github.com/sursly/pageoflinks). 
 
 
  One page of links. 
