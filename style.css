@@ -67,7 +67,8 @@ h1 span {
 p.location {
   font-size: 13px;
   color: #ccc;
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Recursive, Verdana, Arial, sans-serif;
+  font-variation-settings: 'MONO' 1, "CASL" 0;
   letter-spacing: .5px;
   margin-bottom: 15vh;
 }
