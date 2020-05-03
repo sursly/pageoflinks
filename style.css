@@ -6,21 +6,26 @@
   font-style: oblique 0deg 15deg;
   font-weight: 300 1000;
   font-display: swap;
-  src: url('woff2_variable_subsets/Recursive_VF_1.047--subset_range_english_basic.woff2') format('woff2');
+  src: url('Resources/woff2_variable_subsets/Recursive_VF_1.047--subset_range_english_basic.woff2') format('woff2');
   unicode-range: U+0020-007F,U+00A9,U+2190-2193,U+2018,U+2019,U+201C,U+201D,U+2022;
 }
 
 
-.test {
-  font-family: Recursive, sans-serif;
+.recursive {
+  font-family: Recursive, Baskerville;
   font-variation-settings: "MONO" 0, "CASL" 0;
-  transition: font-weight .5s ease-in-out, font-variation-settings .5s ease-in-out;
+  /* transition: font-weight .5s ease-in-out, font-variation-settings .5s ease-in-out; */
 }
 
-.test:hover {
-  font-family: Recursive, sans-serif;
+.recursive:hover {
+  font-family: Recursive, Baskerville;
   font-weight: 1000;
   font-variation-settings: "MONO" 1, "CASL" 1;
+}
+
+.headerfont {
+  font-family: Recursive, Baskerville;
+  font-variation-settings: "MONO" .3, "CASL" .46, "wght" 577, "slnt" -8.6, "CRSV" 0;
 }
 
 body, html {
@@ -33,6 +38,10 @@ body, html {
 
 #page {
   background: white;
+  background-image: url(Resources/jdobrovectorAsset\ 1@2x.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: right;
   box-shadow: 0px 3px 13px rgba(0,0,0,0.07);
   position: fixed;
   top: 2vw;
@@ -70,7 +79,7 @@ ul {
   margin-bottom: 2em;
 }
 
-ul li:first-child, p.social strong {
+/* ul li:first-child, p.social strong {
   font-family: 'Arial Black', Arial, sans;
   font-weight: black;
   text-transform: uppercase;
@@ -78,11 +87,11 @@ ul li:first-child, p.social strong {
   font-size: 12px;
   margin-bottom: 1em;
   margin-right: 2em;
-}
+} */
 
 ul li {
   line-height: 4.5vh;
-  font-size: 18px;
+  font-size: 25px;
 }
 a {
   color: #222;
@@ -115,7 +124,7 @@ p.social a {
 }
 
 a:hover, p.social a:hover {
-  border-bottom: 1px solid rgba(0,0,0,0);
+  /* border-bottom: 1px solid rgba(0,0,0,0); */
   color: coral;
 }
 
