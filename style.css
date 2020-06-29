@@ -80,7 +80,7 @@ ul {
   margin-bottom: 2em;
 }
 
- ul li:first-child, p.social strong {
+ /* ul li:first-child, p.social strong {
   font-family: Recursive, 'Arial Black', Arial, sans;
   font-weight: black;
   font-variation-settings: "MONO" 1, "CASL" 1;
@@ -89,7 +89,7 @@ ul {
   font-size: 12px;
   margin-bottom: 1em;
   margin-right: 2em;
-} 
+}  */
 
 ul li {
   line-height: 4.5vh;
