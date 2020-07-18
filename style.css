@@ -44,11 +44,11 @@ ul {
   width: 24%;
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 ul li:first-child, p.social strong {
-  font-family: 'Arial Black', Arial, sans;
+  font-family: 'Arial Black', Arial, sans-serif;
   font-weight: black;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -94,6 +94,32 @@ p.social a {
 a:hover, p.social a:hover {
   border-bottom: 1px solid rgba(0,0,0,0);
   color: coral;
+}
+
+.new {
+content: "new";
+font-size: 8px;
+text-transform: uppercase;
+font-family: "Arial Black", Arial, Helvetica, sans-serif;
+background: black;
+color: white;
+padding: 14px 5px;
+border-radius: 25px;
+line-height: .5;
+letter-spacing: .5px;
+display: inline-block;
+transform: rotate(25deg) scale(.85);
+position: relative;
+top: -2px;
+transition: all 0.15s ease-out;
+-moz-transition: all 0.15s ease-out;
+-webkit-transition: all 0.15s ease-out;
+}
+
+a:hover .new {
+  background: coral;
+  color: black;
+  transform: rotate(0deg) scale(1)
 }
 
 /*responsive styles below ---------------------------------------------*/
