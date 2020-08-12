@@ -108,9 +108,9 @@ font-size: 12px;
 text-transform: uppercase;
 background: coral;
 color: black;
-padding: 14px 5px;
+padding: 8px 3px 17px 5px;
 border-radius: 25px;
-line-height: 1;
+line-height: 2;
 letter-spacing: 0px;
 font-weight: bold;
 display: inline-block;
@@ -144,6 +144,7 @@ height: auto;
 h1 {
   top: 30px;
   left: 30px;
+  font-size: 22px;
 }
 
 p.social {
@@ -174,6 +175,14 @@ line-height: 2;
 
 ul li:first-child, p.social strong {
 font-size: 20px;
+}
+
+p.location {
+font-size: 16px;
+position: static;
+transform: none;
+width: auto;
+margin: -7vh 0 7vh 0;
 }
 
 
