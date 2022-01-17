@@ -19,8 +19,28 @@ font-variant-alternates: styleset(ss01); /* Stylistic set 1 on, high-level */
   display: flex;
       align-content: center;
       align-items: stretch;
-      height: 100vh;
       padding: 25vh 60px 0;
+}
+
+
+a#download {
+  position: fixed;
+  bottom: 5vw;
+  right: 5vw;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: 100px;
+  font-weight: 600;
+  padding: .6em .5em;
+  border: 1px solid white;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+a#download:hover {
+  border: 1px solid coral;
+  color: coral;
+
 }
 
 p.social {
@@ -38,7 +58,7 @@ top: 60px;
 left: 60px;
 }
 h1 span {
-font-weight: 400;
+font-weight: 600;
 }
 p.location {
 font-size: 14px;
